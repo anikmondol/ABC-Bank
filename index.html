@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="my/bank.png" type="image/x-icon">
+</head>
+<nav>
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>Shop</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost normal-case text- lg:text-4xl">ABC Bank</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu text-base menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>News</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+</nav>
+<body>
+    <main>
+        <section class="mt-10">
+            <div class="grid grid-cols-1 gap-10 md:grid-cols-3 w-11/12 mx-auto">
+                <div class="bg-green-400 p-8 text-center text-white rounded-lg">
+                    <img src="page/styls/imge1/istockphoto-1413761479-170667a.webp" alt="">
+                    <h2 class="text-4xl mt-5">Deposit Section</h2>
+                    <h4 class="text-2xl mb-5">Lorem ipsum dolor sit adipisicing elite. ipsum dolor sit amen Lilo, ratione!
+                    </h4>
+                    <button id="btn-login"
+                        class="bg-amber-400 px-8 py-2 text-white font-medium rounded-lg hover:bg-green-300">Submit</button>
+                </div>
+                <div class="bg-red-400 p-8 text-center text-white rounded-lg">
+                    <img src="page/styls/imge1/coins-1726618_1280.jpg" alt="">
+                    <h2 class="text-4xl mt-5">Withdraw Section</h2>
+                    <h4 class="text-2xl mb-5">Lorem, ipsum dolor sit amen consenter adipisicing elit. Quis,
+                        officiis?</span></h4>
+                    <button id="btn-submit"
+                        class="bg-amber-400 px-8 py-2 text-white font-medium rounded-lg hover:bg-green-300">Submit</button>
+                </div>
+                <div class="bg-blue-400 p-8 text-center text-white rounded-lg">
+                    <img src="page/styls/imge1/photo-1579621970588-a35d0e7ab9b6.avif" alt="">
+                    <h2 class="text-4xl mt-5">Balance Section</h2>
+                    <h4 class="text-2xl mb-5">Lorem ipsum dolor, sit amen consenter adipisicing elite. Repudiate, ab!
+                    </h4>
+                    <button id="btn-submit"
+                        class="bg-amber-400 px-8 py-2 text-white font-medium rounded-lg hover:bg-green-300">Submit</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-3xl text-center my-5">Pleas Feedback Your Express's 2.0 🛍</h1>
+            <div class="w-[80%] text-center mx-auto mb-8">
+                <textarea id="text-area" placeholder="leave a review.."
+                    class="textarea mx-auto textarea-bordered textarea-lg w-96 text-2xl"></textarea>
+                <div class="text-end w-[50%] mx-auto">
+                    <button id="submit-btn" class="btn btn-success btn-sm">Submit</button>
+                </div>
+            </div>
+            <div id="review" class="user-review w-96 mx-auto mb-10">
+                <h1 class="text-3xl font-bold text-red-600">User Review...</h1>
+            </div>
+        </section>
+    </main>
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <div>
+            <p>ABC BANK LTD.<br />Providing reliable tech since 1992</p>
+        </div>
+        <div>
+            <span class="footer-title">Social</span>
+            <div class="grid grid-cols-3 gap-4">
+                <img src="page/styls/imge1/icons/facebook.png" alt="">
+                <img src="page/styls/imge1/icons/twitter.png" alt="">
+                <img src="page/styls/imge1/icons/insta.png" alt="">
+                
+            </div>
+        </div>
+    </footer>
+    <script src="./js/gorip.js"></script>
+</body>
+
+</html>
