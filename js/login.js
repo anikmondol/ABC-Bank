@@ -22,7 +22,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
         window.location.href = '../page/bank.html'
     }
     else{
-        alert("invalid user!!!dfsdasdsa")
+        alert("invalid user!!!")
     }
 
 
